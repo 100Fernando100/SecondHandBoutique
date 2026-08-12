@@ -6,9 +6,9 @@ type Product = { nameDe: string; nameEn: string; brand: string; price: number; o
 
 const products: Product[] = [
   { nameDe: 'Vintage 90er Levi\'s 501 Jeans', nameEn: "Vintage 90s Levi's 501 Jeans", brand: "Levi's", price: 48, image: 'https://images.pexels.com/photos/10548744/pexels-photo-10548744.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'new' },
-  { nameDe: 'Vintage Ralph Lauren Denim Shorts', nameEn: 'Vintage Polo Ralph Lauren Denim Shorts', brand: 'Ralph Lauren', price: 21, oldPrice: 30, image: 'https://images.pexels.com/photos/15404804/pexels-photo-15404804.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'sale' },
-  { nameDe: 'Vintage Adidas Trainingsjacke', nameEn: 'Vintage Adidas Track Jacket', brand: 'Adidas', price: 34, image: 'https://images.pexels.com/photos/10427342/pexels-photo-10427342.jpeg?auto=compress&cs=tinysrgb&w=900' },
-  { nameDe: 'Vintage Wrangler Westernhemd', nameEn: 'Vintage Wrangler Western Shirt', brand: 'Wrangler', price: 42, image: 'https://images.pexels.com/photos/29346779/pexels-photo-29346779.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'new' },
+  { nameDe: 'Vintage Ralph Lauren Denim Shorts', nameEn: 'Vintage Polo Ralph Lauren Denim Shorts', brand: 'Ralph Lauren', price: 21, oldPrice: 30, image: 'https://images.pexels.com/photos/9165886/pexels-photo-9165886.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'sale' },
+  { nameDe: 'Vintage Adidas Trainingsjacke', nameEn: 'Vintage Adidas Track Jacket', brand: 'Adidas', price: 34, image: 'https://images.pexels.com/photos/16632352/pexels-photo-16632352.jpeg?auto=compress&cs=tinysrgb&w=900' },
+  { nameDe: 'Vintage Wrangler Westernhemd', nameEn: 'Vintage Wrangler Western Shirt', brand: 'Wrangler', price: 42, image: 'https://images.pexels.com/photos/3334975/pexels-photo-3334975.jpeg?auto=compress&cs=tinysrgb&w=900', tag: 'new' },
 ];
 
 const t = {

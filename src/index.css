@@ -83,7 +83,7 @@ h2 { font-size: clamp(42px, 5.5vw, 66px); font-weight: 600; }
 .product-grid { display: grid; gap: 22px; grid-template-columns: repeat(4, 1fr); }
 .product-card { background: transparent; }
 .product-photo { background: #ddd0b8; height: 380px; overflow: hidden; position: relative; }
-.product-photo img { height: 100%; object-fit: cover; transition: transform .5s; width: 100%; }
+.product-photo img { height: 100%; object-fit: cover; object-position: center 20%; transition: transform .5s; width: 100%; }
 .product-card:hover .product-photo img { transform: scale(1.04); }
 .tag { font: 700 10px 'DM Mono', monospace; left: 12px; letter-spacing: .1em; padding: 6px 10px; position: absolute; top: 12px; }
 .tag:not(.sale-tag) { background: #2a2018; color: #fff; }
